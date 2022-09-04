@@ -1,5 +1,6 @@
 import './App.css';
-import { Grid, Card, CardActionArea, CardContent, CardMedia, Typography, Box } from '@mui/material';
+import { Grid, Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
+import { color } from '@mui/system';
 
 function App() {
     return (
@@ -17,32 +18,281 @@ function App() {
                             <div>signo del mes</div>
                         </Grid>
                         <Grid item xs={12}>
-                            <Card>
+                       
+                            <Card className='cardio'>
+
                                 <CardMedia
+                                    className='enelbox'
                                     component="img"
-                                    sx={{ width: 151 }}
+                                    height="140"
                                     image="https://random.imagecdn.app/v1/image"
-                                    alt="Live from space album cover"
+                                    alt="random"
+
                                 />
-                                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                                    <CardContent sx={{ flex: '1 0 auto' }}>
-                                        <Typography component="div" variant="h6">
-                                            Live From Space
-                                        </Typography>
-                                        <Typography variant="subtitle1" color="text.secondary" component="div">
-                                            Mac Miller
-                                        </Typography>
-                                    </CardContent>
-                                    <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-                                        
-                                    </Box>
-                                </Box>
-                                
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
                             </Card>
-                           
                         </Grid>
                         <Grid item xs={6}>
-                            <div>signo</div>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Card className='cardio'>
+
+                                <CardMedia
+                                    className='enelbox'
+                                    component="img"
+                                    height="140"
+                                    image="https://random.imagecdn.app/v1/image"
+                                    alt="random"
+
+                                />
+                                <CardContent className='enelbox2'>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lizard
+                                    </Typography>
+                                    <Typography variant="body2"  >
+                                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                                        species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+
+                            </Card>
                         </Grid>
                     </Grid>
                 </div>
